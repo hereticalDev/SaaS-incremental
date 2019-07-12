@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="main-frame">
+            <h2>SaaS Incremental</h2>
+            <section id="mainButtonSection">
+                <button id='solveButton' class='mainButtons'>Solve Tickets</button>
+                <br>
+                <button id='generateButton' class='mainButtons'>Tweak Code</button>
+                <br>
+                <br>
+            </section>
+            <section id="numbersSection">
+                <b>Tickets:</b><div id="currentTickets"></div>
+                <b>Cash:</b><div id="currentCash"></div>
+                <b>L1 Techs:</b><div id="currentL1s"></div>
+                <b>L2 Techs:</b><div id="currentL2s"></div>
+                <b>L3 Techs:</b><div id="currentL3s"></div>
+                <b>Supervisors:</b><div id="currentSupervisors"></div>
+                <b>Engineers:</b><div id="currentEngineers"></div>
+                <b>Productive Engineers:</b><div id="currentProductiveEngineers"></div>
+                <b>New Game Plus Points:</b><div id="newGamePlusPoints"></div>
+            </section>
+            <section id="buyUnits">
+                <button id='l1Button' class='unitButtons' title="Come to me my pretties">Lure an L1<div id="l1Cost"></button><br>
+                <button id='l2Button' class='unitButtons' title="Once you have enough L1's you can unlock the power of an L2">Transmogrify an L1 to L2<div id="l2Cost"></button><br>
+                <button id='l3Button' class='unitButtons' title="Just as L1's become L2s once fed enough tickets, L3 spring forth from the most valiant of the L2s">Transcend an L2 to L3<div id="l3Cost"></button><br>
+                <button id='supervisorButton' class='unitButtons' title="Once the L1s become too restless some of the L2s mutate in order to direct the swarm, they also find those tickets lost in the abyss">Mutate L2 into a Supervisor<div id="supervisorCost"></button>        
+                <br>
+                <button id='engineerButton' class='unitButtons' title="You'd be surprised at what you can catch with a box, a stick and a string">Enslave an Engineer<div id="engineerCost"></button><br>
+                <button id='productiveEngineerButton' class='unitButtons' title="Once the caffeine merges with your common engineer it creates an unspeakable horror of epic coding proportions.  Make sure to have enough regular engineers to keep their ambitions in check.">Give Coffee to an Engineer<div id="productiveEngineerCost"></button>
+                <br>
+            </section>
+            <section id ="newGamePlusSection">
+                <button id='newGamePlusButton' class='unitButtons'>New Game Plus Points! :<div id="newGameMaybe"></button><br><br>
+            </section>
+        </div>
+    </div>  
+    </body>
+</html>
